@@ -22,12 +22,6 @@ ESLint with:
 - Import sorting
 - Tailwind CSS plugin
 
-### Philosophy
-
-- Minimal code
-- SEO-friendly
-- 🚀 Production-ready
-
 ### Requirements
 
 - Node.js and npm
@@ -52,9 +46,9 @@ Open [http://localhost:4321](http://localhost:4321) with your favorite browser
 to see your project.
 
 
-### Deployed to Netlify
+### Deployed via Netlify
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Astro-boilerplate)
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/theognis1002/portfolio)
 
 ## 🧞 Commands
 
