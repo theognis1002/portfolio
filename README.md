@@ -46,10 +46,9 @@ Open [http://localhost:4321](http://localhost:4321) with your favorite browser
 to see your project.
 
 
-### Deployed via Netlify
+### Deployed via Vercel
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/theognis1002)
-
+[![Deployed with Vercel](https://vercel.com/button)](https://app.netlify.com/start/deploy?repository=https://github.com/theognis1002/pfx-lndg)
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:

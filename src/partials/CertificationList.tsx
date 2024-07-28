@@ -13,9 +13,7 @@ const CertificationList = () => (
     <div className="flex flex-col gap-6">
       <CertificationCard
         name="AWS Certified Solutions Architect - Associate"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        description=""
         link="/"
         certDate="9/2022"
         img={{
@@ -26,9 +24,7 @@ const CertificationList = () => (
       />
       <CertificationCard
         name="AWS Certified Cloud Practitioner"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        description=""
         link="/"
         certDate="1/2021"
         img={{
@@ -39,9 +35,7 @@ const CertificationList = () => (
       />
       <CertificationCard
         name="Microsoft Certified: Azure Fundamentals"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        description=""
         link="/"
         certDate="10/2022"
         img={{
