@@ -26,156 +26,114 @@ const Skills = () => (
         <tbody>
           <tr className="h-56">
             <td className="p-3">
-              <a
-                href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
-                target="_blank"
-              >
-                <img
-                  src={pythonLogo.src}
-                  alt="Python"
-                  width={260}
-                  height={224}
-                />
-              </a>
+              <img
+                className="hover:translate-y-1"
+                src={pythonLogo.src}
+                alt="Python"
+                width={260}
+                height={224}
+              />
             </td>
             <td className="p-3">
-              <a
-                href="https://betterstack.com/?utm_source=github&utm_medium=Skillship&utm_campaign=next-js-boilerplate"
-                target="_blank"
-              >
-                <img
-                  src={djangoLogo.src}
-                  alt="Django"
-                  width={260}
-                  height={224}
-                />
-              </a>
+              <img
+                className="hover:translate-y-1"
+                src={djangoLogo.src}
+                alt="Django"
+                width={260}
+                height={224}
+              />
             </td>
             <td className="p-3">
-              <a href="https://nextlessjs.com">
-                <img
-                  src={reactLogo.src}
-                  alt="React SaaS Boilerplate Next.js"
-                  width={260}
-                  height={224}
-                />
-              </a>
+              <img
+                className="hover:translate-y-1"
+                src={reactLogo.src}
+                alt="React SaaS Boilerplate Next.js"
+                width={260}
+                height={224}
+              />
             </td>
             <td className="p-3">
-              <a href="https://nextlessjs.com">
-                <img
-                  src={nextjsLogo.src}
-                  alt="React SaaS Boilerplate Next.js"
-                  width={260}
-                  height={224}
-                />
-              </a>
+              <img
+                className="hover:translate-y-1"
+                src={nextjsLogo.src}
+                alt="React SaaS Boilerplate Next.js"
+                width={260}
+                height={224}
+              />
             </td>
             <td className="p-3">
-              <a
-                href="https://clerk.com?utm_source=github&utm_medium=Skillship&utm_campaign=nextjs-boilerplate"
-                target="_blank"
-              >
-                <img
-                  src={vueLogo.src}
-                  alt="PostgreSQL & Relational Database Experience"
-                  width={260}
-                  height={224}
-                />
-              </a>
+              <img
+                className="hover:translate-y-1"
+                src={vueLogo.src}
+                alt="PostgreSQL & Relational Database Experience"
+                width={260}
+                height={224}
+              />
             </td>
             <td className="p-3">
-              <a
-                href="https://clerk.com?utm_source=github&utm_medium=Skillship&utm_campaign=nextjs-boilerplate"
-                target="_blank"
-              >
-                <img
-                  src={golangLogo.src}
-                  alt="PostgreSQL & Relational Database Experience"
-                  width={260}
-                  height={224}
-                />
-              </a>
+              <img
+                className="hover:translate-y-1"
+                src={golangLogo.src}
+                alt="PostgreSQL & Relational Database Experience"
+                width={260}
+                height={224}
+              />
             </td>
           </tr>
           <tr className="h-56">
             <td className="p-3">
-              <a
-                href="https://clerk.com?utm_source=github&utm_medium=Skillship&utm_campaign=nextjs-boilerplate"
-                target="_blank"
-              >
-                <img
-                  src={postgresLogo.src}
-                  alt="PostgreSQL & Relational Database Experience"
-                  width={260}
-                  height={224}
-                />
-              </a>
+              <img
+                className="hover:translate-y-1"
+                src={postgresLogo.src}
+                alt="PostgreSQL & Relational Database Experience"
+                width={260}
+                height={224}
+              />
             </td>
             <td className="p-3">
-              <a
-                href="https://clerk.com?utm_source=github&utm_medium=Skillship&utm_campaign=nextjs-boilerplate"
-                target="_blank"
-              >
-                <img
-                  src={mysqlLogo.src}
-                  alt="PostgreSQL & Relational Database Experience"
-                  width={260}
-                  height={224}
-                />
-              </a>
+              <img
+                className="hover:translate-y-1"
+                src={mysqlLogo.src}
+                alt="PostgreSQL & Relational Database Experience"
+                width={260}
+                height={224}
+              />
             </td>
             <td className="p-3">
-              <a
-                href="https://turso.tech/?utm_source=nextjsstarterbp"
-                target="_blank"
-              >
-                <img
-                  src={mongoLogo.src}
-                  alt="MongoDB Experience"
-                  width={260}
-                  height={224}
-                />
-              </a>
+              <img
+                className="hover:translate-y-1"
+                src={mongoLogo.src}
+                alt="MongoDB Experience"
+                width={260}
+                height={224}
+              />
             </td>
             <td className="p-3">
-              <a
-                href="https://turso.tech/?utm_source=nextjsstarterbp"
-                target="_blank"
-              >
-                <img
-                  src={redisLogo.src}
-                  alt="Redis & AWS Elasticache Experience"
-                  width={260}
-                  height={224}
-                />
-              </a>
+              <img
+                className="hover:translate-y-1"
+                src={redisLogo.src}
+                alt="Redis & AWS Elasticache Experience"
+                width={260}
+                height={224}
+              />
             </td>
             <td className="p-3">
-              <a
-                href="https://turso.tech/?utm_source=nextjsstarterbp"
-                target="_blank"
-              >
-                <img
-                  src={awsLogo.src}
-                  alt="AWS Cloud Experience"
-                  width={260}
-                  height={224}
-                />
-              </a>
+              <img
+                className="hover:translate-y-1"
+                src={awsLogo.src}
+                alt="AWS Cloud Experience"
+                width={260}
+                height={224}
+              />
             </td>
             <td className="p-3">
-              <a
-                href="https://turso.tech/?utm_source=nextjsstarterbp"
-                target="_blank"
-              >
-                <img
-                  src={azureLogo.src}
-                  alt="Azure Cloud Experience"
-                  width={260}
-                  height={224}
-                />
-              </a>
+              <img
+                className="hover:translate-y-1"
+                src={azureLogo.src}
+                alt="Azure Cloud Experience"
+                width={260}
+                height={224}
+              />
             </td>
           </tr>
         </tbody>
