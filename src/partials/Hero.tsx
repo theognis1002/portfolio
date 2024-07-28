@@ -15,7 +15,7 @@ const Hero = () => (
       }
       description={
         <>
-          Lead Software Engineer with over 8 years of experience in full stack
+          Lead Software Engineer with over 8+ years of experience in full stack
           development, software engineering, and software management. a proven
           track record of driving innovation and delivering high-impact
           solutions within the financial services and small business lending
@@ -38,23 +38,22 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <div className="pr-3">
-            <a target="_blank" href="https://www.github.com/theognis1002">
-              <HeroSocial
-                src="/assets/images/github-icon.png"
-                alt="GitHub icon"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/michael-mcclelland-b82439113/"
-            >
-              <HeroSocial
-                src="/assets/images/linkedin-icon.png"
-                alt="LinkedIn icon"
-              />
-            </a>
-          </div>
+          <a target="_blank" href="https://www.github.com/theognis1002">
+            <HeroSocial
+              src="/assets/images/github-icon.png"
+              alt="GitHub icon"
+            />
+          </a>
+          <a
+            className="ml-3"
+            target="_blank"
+            href="https://www.linkedin.com/in/michael-mcclelland-b82439113/"
+          >
+            <HeroSocial
+              src="/assets/images/linkedin-icon.png"
+              alt="LinkedIn icon"
+            />
+          </a>
         </>
       }
     />
