@@ -48,7 +48,7 @@ to see your project.
 
 ### Deployed via Netlify
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/theognis1002/portfolio)
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/theognis1002)
 
 ## 🧞 Commands
 
