@@ -58,6 +58,13 @@ export const siteConfig = {
   ],
   projects: [
     {
+      name: "Lightfold CLI",
+      description:
+        "Minimal deployment tool for indie devs. Detects your app framework, builds, and deploys to your own VPS with simple defaults. No YAML, no lock-in. Supports 15+ frameworks including Next.js, Django, Rails, and Laravel with automatic framework detection and smart deploys.",
+      link: "https://github.com/theognis1002/lightfold-cli",
+      skills: ["Go", "CLI", "DevOps", "DigitalOcean", "Vultr", "Hetzner", "Nixpacks", "Docker"],
+    },
+    {
       name: "MCP Gateway & Registry",
       description:
         "Production-ready API gateway for Model Context Protocol (MCP) servers providing enterprise-grade infrastructure with authentication, logging, rate limiting, and multi-protocol transport support. Translates REST APIs into MCP and bridges multiple transports for LLM integration.",
@@ -72,11 +79,11 @@ export const siteConfig = {
       skills: ["TypeScript", "Chrome Extension", "AI", "Social Media APIs"],
     },
     {
-      name: "Spotify Clone UI for Ticketing Industry",
+      name: "tsundoku",
       description:
-        "Custom Spotify UI clone built for a client in the resale ticketing industry. Features modern responsive design with seamless user experience for ticket browsing and management.",
-      link: "https://www.seapigtickets.com/",
-      skills: ["TypeScript", "Next.js", "TailwindCSS", "Netlify", "UI/UX Design"],
+        "Using LLMs and Retrieval Augmented Generation (RAG) to help ease the burden of buying books and leaving them unread. Real-time chapter summarization using Groq large language models with epub file support and intelligent content retrieval.",
+      link: "https://github.com/theognis1002/tsundoku",
+      skills: ["Python", "LLM", "RAG", "Groq", "Vector Database", "Docker", "PostgreSQL"],
     },
   ],
   experience: [
