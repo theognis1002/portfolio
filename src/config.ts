@@ -5,7 +5,7 @@ export const siteConfig = {
   accentColor: "#1d4ed8",
   social: {
     email: "michaeljamesmcclelland@gmail.com",
-    linkedin: "https://www.linkedin.com/in/michael-mcclelland-b82439113/",
+    // linkedin: "https://www.linkedin.com/in/michael-mcclelland-b82439113/",
     github: "https://www.github.com/theognis1002",
   },
   aboutMe:
@@ -90,7 +90,7 @@ export const siteConfig = {
     {
       company: "Wraith Security",
       title: "Founder",
-      dateRange: "Jul 2024 - Present",
+      dateRange: "Jul 2024 - Oct 2025",
       bullets: [
         "Founded and lead technical development of autonomous AI security agent platform delivering continuous pentesting and vulnerability scanning",
         "Architected ready-to-deploy security solutions that provide actionable insights with reduced noise and immediate remediation capabilities",
