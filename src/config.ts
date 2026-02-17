@@ -16,6 +16,7 @@ export const siteConfig = {
       items: [
         'Python',
         'JavaScript / TypeScript',
+        'Rust',
         'Go',
         'React.js / Next.js',
         'Node.js / Express.js',
@@ -38,6 +39,7 @@ export const siteConfig = {
       title: 'AI & Generative AI',
       items: [
         // "AI / Generative AI",
+        'Claude Code / Codex / OpenCode',
         'AI Agents / Agentic Workflows',
         'LangChain / LangGraph / crewAI',
         'Agent Development Kit (ADK)',
@@ -58,11 +60,11 @@ export const siteConfig = {
   ],
   projects: [
     {
-      name: 'Lightfold CLI',
+      name: 'tsundoku',
       description:
-        'Minimal deployment tool for indie devs. Detects your app framework, builds, and deploys to your own VPS with simple defaults. No YAML, no lock-in. Supports 15+ frameworks including Next.js, Django, Rails, and Laravel with automatic framework detection and smart deploys.',
-      link: 'https://github.com/theognis1002/lightfold-cli',
-      skills: ['Go', 'CLI', 'DevOps', 'DigitalOcean', 'Vultr', 'Hetzner', 'Nixpacks', 'Docker'],
+        'Using LLMs and Retrieval Augmented Generation (RAG) to help ease the burden of buying books and leaving them unread. Real-time chapter summarization using Groq large language models with epub file support and intelligent content retrieval.',
+      link: 'https://github.com/theognis1002/tsundoku',
+      skills: ['Python', 'LLM', 'RAG', 'Groq', 'Vector Database', 'Docker', 'PostgreSQL'],
     },
     {
       name: 'MCP Gateway & Registry',
@@ -72,21 +74,38 @@ export const siteConfig = {
       skills: ['Go', 'PostgreSQL', 'Next.js', 'TypeScript', 'MCP', 'LLM', 'API Gateway'],
     },
     {
+      name: 'GovScout',
+      description:
+        'CLI tool to search and view federal contract opportunities from the SAM.gov Opportunities API. Search, filter, and inspect federal procurement data directly from the terminal with formatted table output or raw JSON.',
+      link: 'https://github.com/theognis1002/govscout',
+      skills: ['Rust', 'CLI', 'SAM.gov API', 'Government Contracts'],
+    },
+    {
+      name: 'Lightfold CLI',
+      description:
+        'Minimal deployment tool for indie devs. Detects your app framework, builds, and deploys to your own VPS with simple defaults. No YAML, no lock-in. Supports 15+ frameworks including Next.js, Django, Rails, and Laravel with automatic framework detection and smart deploys.',
+      link: 'https://github.com/theognis1002/lightfold-cli',
+      skills: ['Go', 'CLI', 'DevOps', 'DigitalOcean', 'Vultr', 'Hetzner', 'Nixpacks', 'Docker'],
+    },
+    {
       name: 'Chatterbox - AI Social Media Assistant',
       description:
         'Chrome extension that uses AI to generate contextual replies for X/Twitter and LinkedIn. Features multiple templates for quick crafting of engaging responses and seamless social media interactions.',
       link: 'https://github.com/theognis1002/chatterbox',
       skills: ['TypeScript', 'Chrome Extension', 'AI', 'Social Media APIs'],
     },
-    {
-      name: 'tsundoku',
-      description:
-        'Using LLMs and Retrieval Augmented Generation (RAG) to help ease the burden of buying books and leaving them unread. Real-time chapter summarization using Groq large language models with epub file support and intelligent content retrieval.',
-      link: 'https://github.com/theognis1002/tsundoku',
-      skills: ['Python', 'LLM', 'RAG', 'Groq', 'Vector Database', 'Docker', 'PostgreSQL'],
-    },
   ],
   experience: [
+    {
+      company: 'Tactical ID',
+      title: 'Lead Software Engineer',
+      dateRange: 'Oct 2025 - Present',
+      bullets: [
+        'Building enterprise identity and authentication platform for government agencies and DoD/DoW, providing on-premise identity synchronization and security (Okta alternative for air-gapped environments)',
+        'Architecting microservices backend using Python/Flask and TypeScript/Next.js with PostgreSQL, RabbitMQ, Celery, and Celerybeat for async task orchestration',
+        'Deploying and managing containerized infrastructure with Docker and Kubernetes on secure, on-premise environments with a Rust-based agent for machine identity management',
+      ],
+    },
     {
       company: 'Wraith Security',
       title: 'Founder',
