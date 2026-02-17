@@ -1,10 +1,9 @@
 ---
-import { siteConfig } from "../config";
+import { siteConfig } from '../config';
 
-const hasSkills = Array.isArray(siteConfig.skills)
-  && siteConfig.skills.some(
-    (category) => Array.isArray(category.items) && category.items.length > 0,
-  );
+const hasSkills =
+  Array.isArray(siteConfig.skills) &&
+  siteConfig.skills.some((category) => Array.isArray(category.items) && category.items.length > 0);
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
@@ -12,9 +11,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 
 <footer class="relative bg-gray-50 border-t border-gray-200">
   <div class="mx-auto max-w-6xl px-6 py-12 lg:px-8">
-    <div
-      class="flex flex-col md:flex-row md:items-center md:justify-between gap-8"
-    >
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
       <div class="flex flex-col gap-4">
         <h3 class="text-2xl font-bold text-gray-800 font-mono">
           {siteConfig.name}
@@ -114,10 +111,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           -->
           {
             hasSkills && (
-              <a
-                href="#skills"
-                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
-              >
+              <a href="#skills" class="text-sm text-gray-600 hover:text-gray-800 transition-colors">
                 Skills
               </a>
             )
@@ -163,10 +157,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 
   <!-- Decorative pattern -->
   <div class="absolute inset-0 -z-10 overflow-hidden">
-    <svg
-      aria-hidden="true"
-      class="absolute bottom-0 left-0 w-full h-24 text-gray-100"
-    >
+    <svg aria-hidden="true" class="absolute bottom-0 left-0 w-full h-24 text-gray-100">
       <pattern
         id="footer-pattern"
         x="0"
